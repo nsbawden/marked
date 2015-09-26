@@ -11,6 +11,8 @@ I wanted the `kramdown` attribute syntax and the ability to turn off heading id 
 
 So far I have implimented the basic 3 part kramdown `{: attribute }` syntax and applied it to link tags. Also a simple `{:#id}` property for headings and disabled fully automatic ids on headings. Later will make that an option and apply the attribute syntax to all tags.
 
+I also fixed the jshint source errors. The code is now jshint clean.
+
 ## Install
 
 ``` bash
