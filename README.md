@@ -5,6 +5,12 @@
 
 [![NPM version](https://badge.fury.io/js/marked.png)][badge]
 
+## Why this fork?
+
+I wanted the `kramdown` attribute syntax and the ability to turn off heading id generation with an option. The `kramed` fork was promising but incomplete in respect to attributes and split up across way too many files. I prefer all the code in the same file as in `marked`.
+
+So far I have implimented the basic 3 part kramdown `{: attribute }` syntax and applied it to link tags. Also a simple `{:#id}` property for headings and disabled fully automatic ids on headings. Later will make that an option and apply the attribute syntax to all tags.
+
 ## Install
 
 ``` bash
